@@ -27,10 +27,10 @@ app.use((req, res, next) => {
     next(); //Needed to move on or the routing will never run
 });
 
-app.use((req, res, next) => {
-    res.render('maintenance.hbs',{
-        pageTitle: 'Under Construction Page'});
-});
+// app.use((req, res, next) => {
+//     res.render('maintenance.hbs',{
+//         pageTitle: 'Under Construction Page'});
+// });
 
 /*******Dynamic Routing example********/
 //Takes the absolute path of our express app we want to serve up
